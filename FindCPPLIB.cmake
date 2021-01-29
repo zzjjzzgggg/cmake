@@ -120,8 +120,8 @@ if (CPPLIB_FOUND)
     ${LIB_MATH}
     ${LIB_HLL}
     )
-  set(CPPLIB_INCLUDE_DIRS ${CPPLIB_ROOT_DIR})
-  set(CPPLIB_DEFINITIONS)
+set(CPPLIB_INCLUDE_DIRS ${CPPLIB_ROOT_DIR})
+  # set(CPPLIB_DEFINITIONS)
 endif()
 
 # Tell cmake GUIs to ignore the "local" variables.
